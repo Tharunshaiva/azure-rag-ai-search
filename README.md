@@ -82,7 +82,7 @@ Ask a question and get a RAG-powered answer.
 ## Project Structure
 
 ```
-Major_Functions/
+azure-rag-app/
 ├── function_app.py                # Azure Functions entry point (HTTP triggers)
 ├── host.json                      # Azure Functions host configuration
 ├── requirements.txt               # Python dependencies
@@ -119,7 +119,7 @@ Major_Functions/
 
 2. **Create a virtual environment**
    ```bash
-   cd Major_Functions
+   cd azure-rag-app
    python -m venv .venv
    .venv\Scripts\activate    # Windows
    # source .venv/bin/activate  # macOS/Linux

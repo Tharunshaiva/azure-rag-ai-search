@@ -1,0 +1,24 @@
+# Uncomment to enable Azure Monitor OpenTelemetry
+# Ref: aka.ms/functions-azure-monitor-python
+# azure-monitor-opentelemetry
+
+azure-functions
+openai
+azure-ai-formrecognizer
+azure-search-documents
+azure-storage-blob
+python-docx
+python-pptx
+pillow
+pytesseract
+requests
+
+# Optional packages used for improved PDF extraction fallbacks
+# - PyMuPDF (fast text extraction + rendering): pip install PyMuPDF
+# - pdfminer.six (robust PDF text parser): pip install pdfminer.six
+# - pdf2image (render pages to images for OCR; requires poppler): pip install pdf2image
+# Notes: Tesseract OCR and Poppler must be installed on the system (not Python packages).
+PyMuPDF
+pdfminer.six
+pdf2image
+

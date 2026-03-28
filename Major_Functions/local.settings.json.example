@@ -1,0 +1,18 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AZURE_STORAGE_CONNSTR": "<your-azure-storage-connection-string>",
+    "AZURE_CONTAINER": "<your-container-name>",
+    "AZ_SEARCH_ENDPOINT": "<your-azure-search-endpoint>",
+    "AZ_SEARCH_ADMIN_KEY": "<your-azure-search-admin-key>",
+    "AZ_SEARCH_INDEX": "<your-search-index-name>",
+    "AOAI_ENDPOINT": "<your-azure-openai-endpoint>",
+    "AOAI_KEY": "<your-azure-openai-key>",
+    "AOAI_EMBEDDING_MODEL": "text-embedding-3-small",
+    "AOAI_CHAT_MODEL": "gpt-4o",
+    "FORM_RECOGNIZER_ENDPOINT": "<your-form-recognizer-endpoint>",
+    "FORM_RECOGNIZER_KEY": "<your-form-recognizer-key>"
+  }
+}

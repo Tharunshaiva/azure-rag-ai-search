@@ -1,0 +1,36 @@
+# === Secrets & Local Config ===
+local.settings.json
+.env
+*.env
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# === Virtual Environments ===
+.venv/
+venv/
+ENV/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS Files ===
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# === Azure Functions ===
+bin/
+obj/
+appsettings.json
